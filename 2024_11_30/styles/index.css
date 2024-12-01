@@ -1,0 +1,52 @@
+body{
+    padding: 15px;
+    background-color: #f0f8ff;
+}
+
+body div{
+    margin: 15px auto; /*top-bottom left-right*/
+}
+
+.header h1{
+    text-align: center;
+}
+
+.border{
+    padding: 10px 15px;
+    border: 1px solid black;
+}
+
+li{
+    padding: 2px 0px;
+}
+
+.links{
+    padding: 10px;
+}
+
+.links h4{
+    display: inline;
+}
+
+.links *{
+    padding-right: 10px;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 15px auto; /* auto left-right will make the element center from horizontal point of view */
+}
+
+td,th{
+    padding: 4px 8px;
+    border: 1px solid black;
+}
+
+table caption{
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+#leader{
+    background-color: #ffff00;
+}
